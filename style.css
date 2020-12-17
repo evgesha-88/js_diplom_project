@@ -1,0 +1,55 @@
+.modal_opacity {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .7);
+}
+
+.model_window {
+    width: 400px;
+    border-radius: 5px;
+    background: #fff;
+    margin: 35vh auto;    
+}
+
+.model_header {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    margin: 0;
+}
+
+.model_close {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.model_body {    
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input_layout {
+    width: 200px; 
+
+}
+
+input {
+    margin: 5px 10px;
+    width: 250px;
+    height: 20px;
+}
+
+.model_footer {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
